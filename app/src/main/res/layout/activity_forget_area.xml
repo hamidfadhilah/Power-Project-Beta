@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forget_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.powerproject.login.ForgetAreaActivity">
+
+    <TextView
+        android:id="@+id/tvFQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Question"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_x="38dp"
+        android:layout_y="43dp" />
+
+    <EditText
+        android:id="@+id/etFQuestion"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvFQuestion"
+        android:editable="false"
+        android:layout_x="30dp"
+        android:layout_y="124dp" />
+
+    <TextView
+        android:id="@+id/tvFAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etFAnswer"
+        android:text="Answer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="66dp"
+        android:layout_y="199dp" />
+
+    <EditText
+        android:id="@+id/etFAnswer"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvFAnswer"
+        android:layout_x="53dp"
+        android:layout_y="221dp" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/bContinue"
+        android:layout_gravity="center"
+        android:layout_x="143dp"
+        android:layout_y="332dp" />
+
+
+</LinearLayout>
